@@ -1,0 +1,24 @@
+# RAG Chatbot — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# PDF parsing (native text extraction)
+pymupdf>=1.24.0
+
+# OCR fallback for scanned/image-only pages
+pytesseract>=0.3.10
+Pillow>=10.0.0
+
+# Embedding model
+sentence-transformers>=2.7.0
+
+# Vector store (FAISS HNSW)
+faiss-cpu>=1.8.0
+
+# HTTP client for LLM API calls (Groq, HuggingFace)
+requests>=2.31.0
+
+# Numerical computing (required by FAISS + sentence-transformers)
+numpy>=1.26.0
+
+# Web UI
+streamlit>=1.36.0
